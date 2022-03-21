@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+}
+img{
+    margin: 0px;
+}
+table{
+    padding: 0px;
+    width: 100%;
+}
+table tr{
+    margin: 0px;
+    padding: 0px;
+
+}
+.first ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1%;
+
+}
+.first ul li{
+    float: left;
+    color: black;
+    padding-right: 8%;
+    text-transform: capitalize;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.second{
+    background-color: #cc6666;
+    padding: 0px;
+    margin: 0px;
+}
+.second ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.second ul li{
+    float: left;
+    color: black;
+    padding: 2%;
+    margin-right: 6%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.second ul li i{
+    text-align: center;
+}
+.second ul li i p{
+    font-size: 17px;
+    text-align: center;
+}
+.active{
+    background-color: #b3ccff;
+}
+.video{
+    background-image: url('cake.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.videoframe{
+    padding-left: 29%;
+    padding-top: 6%;
+    padding-bottom: 25%;
+
+}
+iframe{
+    box-shadow: 10px 0 10px #d9b3ff;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 34%;
+    font-size: 53px;
+}
+.cakes{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-bottom: 2%;
+}
+.cakes tr td{
+    padding-bottom: 4%;
+}
+.cakes tr td img{
+    border: 2px solid #b3ccff;
+    text-align: center;
+
+}
+.cakes tr td img:hover{
+    box-shadow: 10px 0 10px #b3ccff;
+    transform:scale(1.1);
+}
+.how{
+    padding-left: 2%;
+
+}
+.how tr td{
+    width: 33.33%;
+}
+.how tr td{
+    text-align: center;
+    float: center;
+}
+.how tr td p{
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+aside{
+    padding-top: 0px;
+    margin-top: 0px;
+    background-image: url("footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+aside p{
+    padding-left: 30px;
+    margin-top: 10%;
+}
+.contact{
+    background-color: black;
+    padding-top: 0px;
+    margin-top: 0%;
+    padding-bottom: 10%;
+    padding-left: 40%;
+}
